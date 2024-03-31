@@ -1,0 +1,65 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: blue;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 1rem;
+}
+.nav-item{
+    list-style-type: none;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    font-family: anton ;
+    font-size: 23px;
+    list-style: none;
+}
+.icons{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-weight: 800;
+}
+.icon-link{
+    color: black;
+    font-size: 23px;
+}
+.triangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-left: 30px solid transparent; /* Ajusta el tamaño del triángulo */
+    border-right: 30px solid transparent; /* Ajusta el tamaño del triángulo */
+    border-top: 30px solid blue; /* Ajusta el tamaño y color del triángulo */
+    position:sticky;
+}
